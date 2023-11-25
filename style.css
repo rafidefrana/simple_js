@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.disabled {
+  pointer-events: none;
+}
