@@ -4,7 +4,7 @@ document.addEventListener('contextmenu', event => {
 
 
 function getColor() {
-  return prompt("warna apa yang kamu inginkan?", "red");
+  return prompt("warna apa yang kamu inginkan? Jika sudah memilih warna untuk menggantinya refresh browser", "red");
 }
 function changeColor(element, callback) {
   element.style.color = callback();
